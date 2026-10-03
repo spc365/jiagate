@@ -460,8 +460,10 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.072159.xyz:443,hzytjy.cn:443,ali.nonull.pp.ua:443,auto.dolby.dpdns.org:443,"
-        "cdn.cnno.de:443,saas.sin.fan:443,cf.777791.xyz:443",
+        "api.gzcrtw.com:443,vps.cheng2001.top:443,eii.at:443,bbs.alipansou.com:443,"
+        "cf.468123.xyz:443,tt.78607323.xyz:443,ikankeji.com:443,www.galgamex.net:443,"
+        "www.carousell.sg:4433,www.carousell.sg:443,cf.xreak.top:443,cf.xreak.top:443,"
+        "cf.nyanya.moe:443,www.sage.com:443,www.broadcom.com:443,"
     ).split(",")
     if h.strip()
 ]
@@ -523,8 +525,8 @@ def build_hosts_text(data):
 
 
 # edgetunnel 完整订阅 (vless://) 配置
-EDT_UUID = os.environ.get("EDT_UUID", "你的UUID")
-EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "你的edgetunnel域名")
+EDT_UUID = os.environ.get("EDT_UUID", "dfd1cfa3-4cb1-4109-88c0-c68f598bcdf8")
+EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "你jia.laobai.indevs.in")
 EDT_FINGERPRINT = os.environ.get("EDT_FINGERPRINT", "chrome")
 SUB_URL = os.environ.get("SUB_URL", "https://YOUR_GITHUB_USERNAME.github.io/gate/sub.txt")
 
